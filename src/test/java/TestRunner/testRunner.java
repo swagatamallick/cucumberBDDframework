@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "E://Automation_Framework//MyGitProj//Features//DemoWebsite.feature",
+        features = "Features",
         glue = "stepDefinitions"
 )
 public class testRunner {
